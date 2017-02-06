@@ -73,6 +73,13 @@ width: 75%;
 
 }
 
+.main-navbar li:hover{
+  text-decoration:underline;
+}
+ .secondary-navbar li:hover{
+  background-color: white;
+}
+
 .div-navs2{
 	float:right
 }
