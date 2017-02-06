@@ -54,9 +54,6 @@ width: 75%;
   display: inline-block;
   text-decoration: none;
   padding-top:1px;
-  /*padding-bottom:0px;
-  padding-right:120px;
-  padding-left:11px;*/
   padding-left:40px;
   padding-right:86px;
 }
@@ -247,6 +244,15 @@ width: 100%;
   text-align: left;
 }
 
+.online-applies a{
+  text-decoration:none;
+}
+
+.online-applies a:hover{
+  text-decoration: underline;
+  color:#f23522;
+}
+
 .young_photo{
 	margin-top:745px;
 	margin-left:790px;
@@ -259,6 +265,15 @@ width: 100%;
   padding-top:70px;
   margin-top:-388px;
   margin-left:425px;
+}
+
+.student_box a{
+  text-decoration:none;
+}
+
+.student_box a:hover{
+  text-decoration: underline;
+  color:white;
 }
 
 .student_box:hover{
@@ -274,9 +289,19 @@ width: 100%;
     padding-top:70px;
 }
 
+.student_boxsecond a{
+  text-decoration:none;
+}
+
+.student_boxsecond a:hover{
+  text-decoration: underline;
+  color:white;
+}
+
 .student_boxsecond:hover{
   background-color:#f23522;
 }
+
 .student_boxthird{
 
     width:365px;
@@ -284,6 +309,13 @@ width: 100%;
     background-color: #bbbbbf;
     padding-top:70px;
 
+  }
+  .student_boxthird a{
+    text-decoration:none;
+  }
+  .student_boxthird a:hover{
+    text-decoration: underline;
+    color:white;
   }
 
 .student_boxthird:hover{
@@ -297,6 +329,15 @@ width: 100%;
     padding-top:70px;
 
 
+  }
+
+  .student_boxfourth a{
+    text-decoration:none;
+  }
+
+  .student_boxfourth a:hover{
+    text-decoration: underline;
+    color:white;
   }
 
 .student_boxfourth:hover{
@@ -463,6 +504,15 @@ border: 1px solid red;
 	padding-top:70px;
 }
 
+.event1-info a{
+  text-decoration:none;
+}
+
+.event1-info a:hover{
+  text-decoration:underline;
+  color:black;
+}
+
 .event-day{
 	font-family: Open Sans;
 	color:  #363636;
@@ -597,6 +647,11 @@ border: 1px solid red;
 	font-weight: 400;
 	line-height: 23px;
 	text-align: center;
+}
+
+.btn-send:hover{
+  background-color:#ffffff;
+  color:black;
 }
 
 .button-col{
@@ -823,6 +878,15 @@ footer{
 	margin-left:204px;
 }
 
+.popular-links a{
+  text-decoration:none;
+}
+
+.popular-links a:hover{
+  text-decoration: underline;
+  color:white;
+}
+
 .title-popular{
 	font-family: Montserrat;
 	color:  #f23522;
@@ -848,6 +912,15 @@ footer{
 	margin-top:75px;
 	margin-left:61px;
 }
+.contact-col a{
+  text-decoration:none;
+}
+
+.contact-col a:hover{
+  text-decoration: underline;
+  color:white;
+}
+
 
 .polices-col{
 	width: 16.66%;
@@ -857,12 +930,29 @@ footer{
 	margin-left:20px;
 }
 
+.polices-col a{
+  text-decoration: none;
+}
+.polices-col a:hover{
+  text-decoration:underline;
+  color:white;
+}
+
 .login-col{
 	width: 16.66%;
 	float:left;
 	margin-top:75px;
 	margin-left:35px;
 	padding-left:10px;
+}
+
+.login-col a{
+  text-decoration: none;
+}
+
+.login-col a:hover{
+  text-decoration: underline;
+  color:white;
 }
 
 .footer-section2{
@@ -1036,6 +1126,15 @@ footer{
 	margin-left:40px;
 }
 
+.instaUserContainer a{
+  text-decoration: none;
+}
+
+.instaUserContainer a:hover{
+  text-decoration: underline;
+  color:white;
+}
+
 .twitter-advice1{
 	font-family: "Open Sans";
 	color:  #646e82;
@@ -1068,6 +1167,16 @@ footer{
 	margin-top:-9px;
 	margin-left:54px;
 }
+
+.twitterUserContainer a{
+  text-decoration:none;
+}
+
+.twitterUserContainer a:hover{
+  text-decoration: underline;
+  color:#f23522;
+}
+
 
 .twitterUser{
 	font-family: "Open Sans";
