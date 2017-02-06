@@ -260,6 +260,11 @@ width: 100%;
   margin-top:-388px;
   margin-left:425px;
 }
+
+.student_box:hover{
+  background-color:#f23522;
+}
+
 .student_boxsecond{
 	width:365px;
     height:194px;
@@ -267,6 +272,10 @@ width: 100%;
     margin-top:-197px;
     margin-left:425px;
     padding-top:70px;
+}
+
+.student_boxsecond:hover{
+  background-color:#f23522;
 }
 .student_boxthird{
 
@@ -277,6 +286,10 @@ width: 100%;
 
   }
 
+.student_boxthird:hover{
+  background-color:#f23522;
+}
+
   .student_boxfourth{
     width:365px;
     height:194px;
@@ -285,6 +298,10 @@ width: 100%;
 
 
   }
+
+.student_boxfourth:hover{
+  background-color:#f23522;
+}
 
  .text-iwant{
   color:#fff;
