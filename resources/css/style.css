@@ -32,7 +32,7 @@ background-position: center;
   display: table;
 }
 
-.div-logo 
+.div-logo
 {
 float:left;
 width: 25%;
@@ -47,16 +47,18 @@ width: 75%;
 .main-navbar{
   float:right;
   list-style:none;
-  background-color:red;
+  background-color:#f23522;
 }
 
 .main-navbar li{
   display: inline-block;
   text-decoration: none;
   padding-top:1px;
-  padding-bottom:0px;
+  /*padding-bottom:0px;
   padding-right:120px;
-  padding-left:11px;
+  padding-left:11px;*/
+  padding-left:40px;
+  padding-right:86px;
 }
 
 .main-navbar li a{
@@ -88,9 +90,9 @@ list-style:none;
 }
 
 .secondary-navbar li a{
-  
+
   text-decoration:none;
-  font-family: 'Raleway'; 
+  font-family: 'Raleway';
   color:  #000000;
   font-size: 15px;
   font-weight: 600;
@@ -213,7 +215,7 @@ width: 100%;
 .apply1{
 	width: 58.33%;
 	float: left;
-	
+
 }
 
 [class*="col-"] {
@@ -226,7 +228,7 @@ width: 100%;
 	float: left;
 	padding-top:48px;
 	padding-left:25px;
-	
+
 }
 
 .online-applies p{
@@ -260,7 +262,7 @@ width: 100%;
     padding-top:70px;
 }
 .student_boxthird{
-    
+
     width:365px;
     height:194px;
     background-color: #bbbbbf;
@@ -339,7 +341,7 @@ padding-left:32px;
 	padding-left:54px;
 	width:279px;
 	height:200px;
-	
+
 }
 
 .spotlight-image {
@@ -542,7 +544,7 @@ border: 1px solid red;
 .name-col{
 	width:15%;
 	float:left;
-	
+
 }
 
 .phone-col{
@@ -672,13 +674,13 @@ border: 1px solid red;
 	width:33%;
 	float:left;
 	padding-top:50px;
-	
+
 }
 
 .info-reading{
 	width: 59.4%;
 	float:left;
-	
+
 }
 
 .title-reading{
@@ -695,7 +697,7 @@ border: 1px solid red;
 .reading-info{
 	width:59.4%;
 	float:left;
-	
+
 
 }
 
@@ -960,7 +962,7 @@ footer{
 	float:left;
 	margin-top:200px;
 	margin-left:37px;
-	
+
 }
 
 .twittermini-col{
@@ -968,7 +970,7 @@ footer{
 	float:left;
 	margin-top:200px;
 	margin-left:20px;
-	
+
 }
 
 .instamini-col{
@@ -976,7 +978,7 @@ footer{
 	float:left;
 	margin-top:200px;
 	margin-left:20px;
-	
+
 }
 
 .youtubemini-col{
@@ -984,7 +986,7 @@ footer{
 	float:left;
 	margin-top:200px;
 	margin-left:20px;
-	
+
 }
 
 .instaUser{
@@ -1007,7 +1009,7 @@ footer{
 	width: 16.66%;
 	float:left;
 	margin-top:355px;
-	margin-left:40px; 
+	margin-left:40px;
 }
 
 .twitter-advice1{
@@ -1031,7 +1033,7 @@ footer{
 	float:left;
 	margin-left:37px;
 	margin-top:-10px;
-	
+
 
 }
 
@@ -1096,4 +1098,8 @@ footer{
 	background-image: url("img/news3.png");
 	height: 351px;
 	margin-left:20px;
+}
+
+.fa{
+  font-size:18px;
 }
