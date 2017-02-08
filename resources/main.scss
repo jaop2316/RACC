@@ -202,3 +202,27 @@ background-position: center;
     	text-align: left;
     }
   }
+
+  .section-news{
+    h1{
+      padding-top:43px;
+      padding-left:40px;
+      padding-bottom:0px;
+      font-family: Raleway;
+      color:  #394d69;
+      font-size: 35px;
+    }
+  }
+
+  .news-section1{
+    @include custom_col(50);
+    img{
+      padding-top:0px;
+    }
+  }
+
+  .news-section2{
+    @include custom_col(47.5);
+    background-color:  #87888e;
+  	height: 352px;
+  }

@@ -65,6 +65,11 @@
   padding: 0px;
 }
 
+@mixin custom_col($width){
+  width:#{$width+"%"};
+  float: left;
+}
+
 @mixin options-apply($paddTop,$paddLef,$width){
   padding-top:#{$paddTop+"px"};
   padding-left:#{$paddLef+"px"};

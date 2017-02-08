@@ -267,4 +267,24 @@ header {
     line-height: 24px;
     text-align: left; }
 
+.section-news h1 {
+  padding-top: 43px;
+  padding-left: 40px;
+  padding-bottom: 0px;
+  font-family: Raleway;
+  color: #394d69;
+  font-size: 35px; }
+
+.news-section1 {
+  width: 50%;
+  float: left; }
+  .news-section1 img {
+    padding-top: 0px; }
+
+.news-section2 {
+  width: 47.5%;
+  float: left;
+  background-color: #87888e;
+  height: 352px; }
+
 /*# sourceMappingURL=main.css.map */
