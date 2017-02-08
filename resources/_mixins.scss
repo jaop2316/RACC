@@ -1,0 +1,80 @@
+@mixin absolute-text($wid,$top,$lef){
+  position:absolute;
+  width:#{$wid+"px"};
+  top:#{$top+"px"};
+  left:#{$lef+"px"};
+}
+
+@mixin apply-box($wid,$heigh,$back,$paddTop,$margTop,$margLeft){
+  width:#{$wid+"px"};
+  height:#{$heigh+"px"};
+  background-color:#{$back};
+  padding-top:#{$paddTop+"px"};
+  margin-top:#{$margTop+"px"};
+  margin-left:#{$margLeft+"px"};
+  &:hover{
+    background-color:$red-racc;
+  }
+  a{
+    text-decoration:none;
+    &:hover{
+      text-decoration: underline;
+      color:$white;
+    }
+  }
+  p{
+    color:#fff;
+    font-family: 'Raleway';
+    font-size:35px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 39px;
+  }
+}
+
+
+@mixin apply-box2($wid,$heigh,$back,$paddTop)
+{
+  width:#{$wid+"px"};
+  height:#{$heigh+"px"};;
+  background-color:$back;
+  padding-top:#{$paddTop+"px"};
+  &:hover{
+    background-color:#f23522;
+  }
+  a{
+    text-decoration:none;
+    &:hover{
+      text-decoration: underline;
+      color:white;
+    }
+  }
+  p{
+    color:#fff;
+    font-family: 'Raleway';
+    font-size:35px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 39px;
+  }
+}
+
+@mixin col($width){
+  width:#{$width+"%"};
+  float: left;
+  padding: 0px;
+}
+
+@mixin options-apply($paddTop,$paddLef,$width){
+  padding-top:#{$paddTop+"px"};
+  padding-left:#{$paddLef+"px"};
+  width:#{$width+"px"};
+  p{
+    font-family: 'Raleway';
+    color:  #394d69;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+  }
+}
