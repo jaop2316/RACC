@@ -9,14 +9,24 @@ background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("cs
 background-size: cover;
 background-position: center;
 }
+/* FILAS Y COLUMNAS*/
  .row {
-    width: 1600px;
-    &::after{
-      content: "";
-      clear: both;
-      display: table;
-      }
+    @include row(1600) ;
   }
+
+  .col-4{
+    @include col(33.33);
+  }
+
+  .col-5 {
+    @include col(41.66);
+  }
+
+  .col-6 {
+   @include col(50);
+  }
+
+/*CABECERA*/
 
  .head {
    background-color:$head-color;
@@ -144,13 +154,6 @@ background-position: center;
     @include apply-box2(365,194,#cfcfd2,70);
   }
 
-  .col-5 {
-    @include col(41.66);
-  }
-
-  .col-6 {
-   @include col(50);
-  }
 
   .apply1{
   	width: 58.33%;
@@ -178,15 +181,8 @@ background-position: center;
       line-height: 40px;
       text-align: left;
     }
-    a{
-      text-decoration:none;
-      &:hover{
-        text-decoration: underline;
-        color:$red-racc;
-      }
-    }
-
-  }
+    @include a-hover-putcolor($red-racc);
+ }
 
   .apply2Container{
   	padding-top:50.5px;
@@ -205,7 +201,7 @@ background-position: center;
 
   .section-news{
     h1{
-      padding-top:43px;
+      padding-top:47px;
       padding-left:40px;
       padding-bottom:0px;
       font-family: Raleway;
@@ -221,8 +217,247 @@ background-position: center;
     }
   }
 
+  .news1-image{
+    @include custom_col(51.4);
+    padding-left:37px;
+  }
+
   .news-section2{
     @include custom_col(47.5);
-    background-color:  #87888e;
+    background-color:#87888e;
   	height: 352px;
+    h1{
+      @include section-text(Open Sans,$white,24,400,22.48,left,21,25.5);
+    }
+    h2{
+      @include section-text(Raleway,$white,36,300,70,left,43,25.5);
+    }
+    p{
+      @include section-text(Open Sans,$white,16,400,30,justify,0,40);
+      padding-right:40px;
+    }
   }
+
+  .news-section3{
+    @include col-background-image(22.5,left,"news2.png",351,13);
+    p{
+      @include section-text(Open Sans,$white,22,600,28,left,276,15);
+    }
+  }
+
+  .news-section4{
+    @include col-background-image(22.5,left,"news3.png",351,20);
+    p{
+      @include section-text(Open Sans,$white,22,600,28,left,276,15);
+    }
+  }
+
+/* Sección Eventos*/
+
+ .section-events{
+   padding-top:31.5px;
+   padding-bottom:50px;
+   h1{
+     padding-left:37px;
+     font-family: Raleway;
+     color:  #394d69;
+     font-size: 35px;
+   }
+ }
+
+ .event1{
+   @include custom_col(38);
+   padding-left:92px;
+ 	 padding-top:60px;
+   p{
+     @include section-text(Open Sans,#363636,49.21,700,22,left,19,15);
+   }
+ }
+
+ .red-rectangle{
+   background-color:$red-racc;
+   width:90px;
+   height:33px;
+   p{
+    @include section-text(Raleway,#f3f3f3,28.71,700,22,center,5,0);
+   }
+ }
+
+ .event1-info{
+   @include custom_col(50);
+   padding-top:70px;
+   @include a-hover-putcolor($black);
+   p{
+     @include section-text(Open Sans,#363636,22,600,30,left,0,0);
+   }
+ }
+
+/*Seccion Social*/
+ .section-social{
+   padding-top:30px;
+ }
+
+.socialbox1{
+  @include color_col(25,$red-racc,399);
+  p{
+    @include section-text(Raleway,#eeeeef,47.99,400,45,left,45,35) ;
+  }
+}
+
+.rowConnect{
+  @include row(400);
+}
+
+.facemini-col{
+  @include col-icons-connect(16.66,left,200,37);
+}
+
+.iconmini-col{
+  @include col-icons-connect(16.66,left,200,20);
+}
+
+.socialbox2{
+  @include col-background-image(25,left,"social1.png",399,0)
+}
+
+.instaIconContainer{
+  @include col-icons-connect(16.66,left,352,45);
+}
+
+.instaUserContainer{
+  @include col-icons-connect(16.66,left,355,40);
+    @include a-hover-putcolor($white);
+    p{
+      @include section-text(Open Sans,#eeeeef,14,700,20,center,0,0);
+    }
+}
+
+.socialbox3{
+  @include color_col(25,$twitter-box-connect,399);
+}
+
+.advice-container{
+  @include box-paragraph(320,200,30,165);
+  @include a-hover-putcolor($red-racc);
+  p{
+    @include section-text(Open Sans,$advice-text,16,400,20,left,0,0);
+  }
+}
+
+.twitterIconContainer{
+  @include col-icons-connect(16.66,left,-10,37);
+}
+.twitterUserContainer{
+  @include col-icons-connect(16.66,left,-9,54);
+  @include a-hover-putcolor($red-racc);
+  p{
+    @include section-text(Open Sans,$red-racc,14,700,20,center,0,0);
+  }
+}
+
+.socialbox4{
+  @include col-background-image(25,left,"social2.png",399,0);
+}
+
+.socialbox5{
+  @include col-background-image(25,left,"social3.jpg",399,0);
+}
+
+.socialbox7{
+  @include col-background-image(25,left,"social4.png",399,0);
+}
+
+.contact-form{
+  @include custom-float(75,right);
+  background-color:$contact-section;
+  width: 1391px;
+  height: 258px;
+  p{
+    @include section-text(Raleway,$white,35,500,39,left,50,50);
+  }
+}
+
+.inputs{
+  padding-top:30px;
+  padding-left:42px;
+}
+
+.rowContact{
+  @include row(1343);
+}
+
+.name-col{
+  @include col(15);
+}
+
+.phone-col{
+  @include col(25);
+  margin-left:5px;
+}
+
+.email-col{
+  @include col(22.5);
+  margin-left:-133px;
+}
+
+.button-col{
+  @include col(12);
+}
+
+.txt-name{
+  @include inputs(5,$white,194,60,Montserrat,$input-color,
+  12,12,10);
+}
+
+.txt-email{
+  @include inputs(5,$white,294,60,Montserrat,$input-color,
+  12,12,10);
+}
+
+%btn-text{
+  font-family: Montserrat;
+	color:  #ffffff;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px;
+	text-align: center;
+}
+
+.btn-send{
+  @include buttons(5,solid,2,$white,$btn-send-background,156,60);
+  @extend %btn-text;
+  &:hover{
+    background-color:$white;
+    color:$black;
+  }
+}
+
+.call-col{
+  @include col(35);
+  padding-top:20px;
+	padding-left:25px;
+  p{
+    @include section-text(Raleway,$white,30,500,23,left,0,0);
+  }
+}
+
+.long-raac{
+  @include col-background-image(100,left,"raac2.png",742,0);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.about-raac{
+  @include col-icons-connect(27.5,left,455.5,0);
+  background-color:  #f23522;
+  p{
+    @include section-text(Raleway,$white,35,300,39,left,121,35);
+  }
+}
+
+.textabout-container{
+  @include box-paragraph-paddings(384,500,25,34,680,0);
+  p{
+    @include section-text(Open Sans,$white,18,400,30,left,0,0);
+  }
+}

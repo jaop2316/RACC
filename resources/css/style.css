@@ -521,7 +521,7 @@ border: 1px solid red;
 .socialbox1{
 	width: 25%;
 	float:left;
-	background-color:  #f23522;
+	background-color: #f23522;
 	height: 399px;
 }
 
@@ -686,7 +686,7 @@ border: 1px solid red;
 	height:742px;
 	background-image: url("img/raac2.png");
 	background-repeat: no-repeat;
-    background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 
 .about-raac{
