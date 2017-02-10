@@ -144,6 +144,17 @@ $paddTop,$paddLef){
   }
 }
 
+@mixin a-putcolor($color){
+  a{
+    text-decoration: none;
+    color:#{$color};
+    &:hover{
+      text-decoration: underline;
+      color:#{$color};
+    }
+  }
+}
+
 @mixin box-paragraph($width,$height,$margLeft,$margTop){
   width:#{$width+"px"};
   height:#{$height+"px"};
@@ -181,4 +192,17 @@ $backColor,$width,$height){
 	background-color:#{$backColor};
 	width:#{$width+"px"};
 	height:#{$height+"px"};
+}
+
+@mixin iconContainer($width,$height,$margTop,$margLeft)
+{
+  width:#{$width+"px"};
+  height:#{$height+"px"};
+  margin-top:#{$margTop+"px"};
+  margin-left:#{$margLeft+"px"};
+}
+
+@mixin alignGlyphicons($paddTop,$paddLef){
+  padding-top:#{$paddTop+"px"};
+  padding-left:#{$paddLef+"px"};
 }

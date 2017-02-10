@@ -325,7 +325,7 @@ header {
     line-height: 30px;
     text-align: justify;
     padding-top: 0px;
-    padding-left: 40px;
+    padding-left: 25.5px;
     padding-right: 40px; }
 
 .news-section3 {
@@ -709,5 +709,308 @@ header {
     text-align: left;
     padding-top: 0px;
     padding-left: 0px; }
+
+.reading-area {
+  width: 59.4%;
+  float: left;
+  background-image: url("css/img/video.png");
+  height: 528px;
+  margin-left: 0px;
+  width: 950px;
+  margin-top: 461px; }
+  .reading-area img {
+    padding-top: 205px;
+    padding-left: 400px; }
+
+.reading-info {
+  width: 59.4%;
+  float: left; }
+  .reading-info p {
+    font-family: Raleway;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 400px;
+    line-height: 39px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 45px; }
+
+.readingp-container {
+  width: 960px;
+  height: 225px;
+  padding-top: 18px;
+  padding-left: 55px;
+  padding-bottom: 0px; }
+  .readingp-container p {
+    font-family: Open Sans;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px; }
+
+/* Icons */
+.section-icons {
+  margin-top: 576px; }
+
+.container-icons {
+  width: 100%;
+  float: left;
+  background-color: #c0bfbf;
+  height: 318px; }
+
+.miller-icon {
+  width: 33.33%;
+  float: left;
+  padding-top: 80px;
+  padding-left: 315px; }
+
+.icon2 {
+  width: 33.33%;
+  float: left; }
+
+.icon2-image {
+  padding-top: 84px;
+  padding-left: 223px; }
+
+.icon2-container {
+  width: 200px;
+  height: 45px;
+  margin-top: 15px;
+  margin-left: 157px; }
+  .icon2-container p {
+    font-family: Open Sans;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 0px; }
+
+.icon3 {
+  width: 33.33%;
+  float: left; }
+
+.icon3-image {
+  padding-top: 84px;
+  padding-left: 138.5px; }
+
+.icon3-container {
+  width: 190px;
+  height: 45px;
+  margin-top: 15px;
+  margin-left: 76px; }
+  .icon3-container p {
+    font-family: Open Sans;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 0px; }
+
+/* Footer */
+footer {
+  background-color: #323339;
+  width: 1600px;
+  height: 462px; }
+
+.footer-section1 {
+  width: 67%;
+  float: left; }
+
+.popular-links {
+  width: 16.66%;
+  float: left;
+  margin-top: 75px;
+  margin-left: 204px; }
+  .popular-links h1 {
+    font-family: Montserrat;
+    color: #f23522;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px; }
+  .popular-links p {
+    font-family: Montserrat;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 0px; }
+  .popular-links a {
+    text-decoration: none;
+    color: #fff; }
+    .popular-links a:hover {
+      text-decoration: underline;
+      color: #fff; }
+
+.contact-col {
+  width: 16.66%;
+  float: left;
+  margin-top: 75px;
+  margin-left: 61px; }
+  .contact-col h1 {
+    font-family: Montserrat;
+    color: #f23522;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px; }
+  .contact-col p {
+    font-family: Montserrat;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 0px; }
+  .contact-col a {
+    text-decoration: none;
+    color: #fff; }
+    .contact-col a:hover {
+      text-decoration: underline;
+      color: #fff; }
+
+.polices-col {
+  width: 16.66%;
+  float: left;
+  margin-top: 75px;
+  margin-left: 20px;
+  padding-left: 19px; }
+  .polices-col h1 {
+    font-family: Montserrat;
+    color: #f23522;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px; }
+  .polices-col p {
+    font-family: Montserrat;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 0px; }
+  .polices-col a {
+    text-decoration: none;
+    color: #fff; }
+    .polices-col a:hover {
+      text-decoration: underline;
+      color: #fff; }
+
+.login-col {
+  width: 16.66%;
+  float: left;
+  margin-top: 75px;
+  margin-left: 35px;
+  padding-left: 10px; }
+  .login-col h1 {
+    font-family: Montserrat;
+    color: #f23522;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px; }
+  .login-col p {
+    font-family: Montserrat;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 0px; }
+  .login-col a {
+    text-decoration: none;
+    color: #fff; }
+    .login-col a:hover {
+      text-decoration: underline;
+      color: #fff; }
+
+.social-networking {
+  width: 73%;
+  border-top: 1px solid white;
+  margin-top: 275.5px;
+  margin-left: 207px; }
+
+.rowSocial {
+  width: 780px; }
+  .rowSocial::after {
+    content: "";
+    clear: both;
+    display: table; }
+
+.facebook-col {
+  width: 8.33%;
+  float: left;
+  margin-top: 60px;
+  margin-left: 145px;
+  padding-left: 41px; }
+
+.twitter-col {
+  width: 8.33%;
+  float: left;
+  margin-top: 65px;
+  margin-left: 48px; }
+
+.youtube-col {
+  width: 8.33%;
+  float: left;
+  margin-top: 61px;
+  margin-left: 10px; }
+
+.link-col {
+  width: 8.33%;
+  float: left;
+  margin-top: 65px;
+  margin-left: 18px; }
+
+.snap-col {
+  width: 8.33%;
+  float: left;
+  margin-top: 60px;
+  margin-left: 25px; }
+
+.insta-col {
+  width: 8.33%;
+  float: left;
+  margin-top: 63px;
+  margin-left: 40px; }
+
+.footer-section2 {
+  width: 33%;
+  float: left; }
+
+.logo2 {
+  margin-top: 78px;
+  margin-left: 38px; }
+
+.copyright-col p {
+  font-family: Raleway;
+  color: #cac9c9;
+  font-size: 12px;
+  font-weight: 500px;
+  line-height: 23px;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 33px; }
 
 /*# sourceMappingURL=main.css.map */

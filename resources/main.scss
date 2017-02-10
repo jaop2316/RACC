@@ -233,7 +233,7 @@ background-position: center;
       @include section-text(Raleway,$white,36,300,70,left,43,25.5);
     }
     p{
-      @include section-text(Open Sans,$white,16,400,30,justify,0,40);
+      @include section-text(Open Sans,$white,16,400,30,justify,0,25.5);
       padding-right:40px;
     }
   }
@@ -459,5 +459,182 @@ background-position: center;
   @include box-paragraph-paddings(384,500,25,34,680,0);
   p{
     @include section-text(Open Sans,$white,18,400,30,left,0,0);
+  }
+}
+
+.reading-area{
+  @include col-background-image(59.4,left,"video.png",528,0);
+  width: 950px;
+  margin-top:461px;
+  img{
+    padding-top:205px;
+  	padding-left:400px;
+  }
+}
+
+.reading-info{
+  @include custom_col(59.4);
+  p{
+    @include section-text(Raleway,$black,35,400,39,left,50,45);
+  }
+}
+
+.readingp-container{
+  @include box-paragraph-paddings(960,225,18,55,0,0);
+  p{
+    @include section-text(Open Sans,$black,18,400,30,left,0,0) ;
+  }
+}
+
+/* Icons */
+.section-icons{
+  margin-top:576px;
+}
+
+.container-icons{
+  @include color_col(100,$section-icons,318);
+}
+
+.miller-icon{
+  @include custom_col(33.33);
+  padding-top:80px;
+	padding-left:315px;
+}
+
+.icon2{
+  @include custom_col(33.33);
+}
+
+.icon2-image{
+  @include alignGlyphicons(84,223);
+}
+.icon2-container{
+  @include iconContainer(200,45,15,157);
+  p{
+    @include section-text(Open Sans,$white,20,400,20,center,0,0);
+  }
+}
+
+.icon3{
+  @include custom_col(33.33);
+}
+
+.icon3-image{
+ @include alignGlyphicons(84,138.5);
+}
+
+.icon3-container{
+  @include iconContainer(190,45,15,76);
+  p{
+    @include section-text(Open Sans,$white,20,400,20,center,0,0);
+  }
+}
+
+/* Footer */
+
+footer{
+  background-color:#323339;
+	width: 1600px;
+	height: 462px;
+}
+
+.footer-section1{
+  @include custom_col(67);
+}
+
+.popular-links{
+ @include col-icons-connect(16.66,left,75,204);
+ h1{
+   @include section-text(Montserrat,$red-racc,12,400,26,left,0,0);
+ }
+ p{
+   @include section-text(Montserrat,$white,12,400,26,left,10,0);
+ }
+ @include a-putcolor($white);
+}
+
+.contact-col{
+  @include col-icons-connect(16.66,left,75,61);
+  h1{
+    @include section-text(Montserrat,$red-racc,12,400,26,left,0,0);
+  }
+  p{
+    @include section-text(Montserrat,$white,12,400,26,left,10,0);
+  }
+  @include a-putcolor($white);
+}
+
+.polices-col{
+  @include col-icons-connect(16.66,left,75,20);
+  padding-left:19px;
+  h1{
+    @include section-text(Montserrat,$red-racc,12,400,26,left,0,0);
+  }
+  p{
+    @include section-text(Montserrat,$white,12,400,26,left,10,0);
+  }
+  @include a-putcolor($white);
+}
+.login-col{
+  @include col-icons-connect(16.66,left,75,35);
+  padding-left:10px;
+  h1{
+    @include section-text(Montserrat,$red-racc,12,400,26,left,0,0);
+  }
+  p{
+    @include section-text(Montserrat,$white,12,400,26,left,10,0);
+  }
+  @include a-putcolor($white);
+}
+
+.social-networking{
+	width:73%;
+	border-top: 1px solid white;
+	margin-top:275.5px;
+	margin-left:207px;
+}
+
+.rowSocial{
+  @include row(780);
+}
+
+.facebook-col{
+  @include col-icons-connect(8.33,left,60,145);
+  padding-left:41px;
+}
+
+.twitter-col{
+  @include col-icons-connect(8.33,left,65,48);
+}
+
+.youtube-col{
+  @include col-icons-connect(8.33,left,61,10);
+}
+
+.link-col{
+  @include col-icons-connect(8.33,left,65,18);
+}
+
+.snap-col{
+  @include col-icons-connect(8.33,left,60,25);
+}
+
+.insta-col{
+  @include col-icons-connect(8.33,left,63,40);
+}
+
+.footer-section2{
+  @include custom_col(33);
+}
+
+.logo2{
+  margin-top:78px;
+	margin-left:38px;
+}
+
+.copyright-col
+{
+p{
+    @include section-text(Raleway,$copyright-text,12,500,23,left,50,33);
   }
 }
