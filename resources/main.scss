@@ -1,11 +1,14 @@
+@import "susy";
 @import "_colors.scss";
 @import "_reset.scss";
 @import "_mixins.scss";
 
+body { @include container(80em); }
+
 header{
 width: 1600px;
 height: 1238px;
-background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("css/img/header.jpg");
+background-image:linear-gradient($gradient-color, $gradient-color),url("css/img/header.jpg");
 background-size: cover;
 background-position: center;
 }
